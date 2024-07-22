@@ -1,0 +1,35 @@
+{% comment %} String {% endcomment %}
+{% assign myString = '1234' %}
+{{ myString }}
+
+<br>
+
+{% comment %} Number {% endcomment %}
+{% assign myNumber = 1234 %}
+{{ myNumber }}
+
+<br>
+
+{% assign myFloatingPoint = 123.5 %}
+{{myFloatingPoint}}
+
+<br>
+
+{% comment %} Boolean {% endcomment %}
+{% assign myBoolean = true %}
+{{myBoolean}}
+
+<br>
+
+{% comment %} Nill or Null {% endcomment %}
+{% assign myNill = null %}
+{{myNill}}
+
+{% if undefinedVariable == null %}
+    <p>undefinedVariable is equal to null</p>
+{% endif %}
+
+<br>
+
+{% comment %} Array {% endcomment %}
+ {{product.tags}}
