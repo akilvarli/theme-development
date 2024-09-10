@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -13,6 +22,13 @@
         "title": {
           "type": "title",
           "settings": {
+          }
+        },
+        "text_DeCxQW": {
+          "type": "text",
+          "settings": {
+            "text": "This is a value for Example Metafield {{ product.metafields.custom.example_metafield.value }}",
+            "text_style": "body"
           }
         },
         "price": {
@@ -54,6 +70,7 @@
       "block_order": [
         "vendor",
         "title",
+        "text_DeCxQW",
         "price",
         "variant_picker",
         "quantity_selector",
